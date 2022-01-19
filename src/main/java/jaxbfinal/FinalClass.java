@@ -42,7 +42,6 @@ public class FinalClass {
 				}
 			}
 
-			System.out.println("Hello Git ");
 
 		} catch (Exception ex) {
 			ex.printStackTrace();
