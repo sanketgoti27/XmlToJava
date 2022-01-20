@@ -11,8 +11,8 @@ public class FinalClass {
 	public static void main(String[] args) {
 
 		File file = new File("D:/Sanket/Employee.xml");
-		
 
+		System.out.println(" Hello");
 		try {
 
 			JAXBContext jaxbContext = JAXBContext.newInstance(Employees.class);
@@ -42,7 +42,6 @@ public class FinalClass {
 							+ add.getCity() + " " + add.getCity() + " " + add.getState() + " " + add.getPincode());
 				}
 			}
-
 
 		} catch (Exception ex) {
 			ex.printStackTrace();
