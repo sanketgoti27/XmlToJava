@@ -12,6 +12,8 @@ public class FinalClass {
 
 		File file = new File("D:/Sanket/Employee.xml");
 
+		
+
 		System.out.println(" Hello");
 		try {
 
@@ -42,6 +44,9 @@ public class FinalClass {
 							+ add.getCity() + " " + add.getCity() + " " + add.getState() + " " + add.getPincode());
 				}
 			}
+
+
+			System.out.println(" hello sanket !");
 
 		} catch (Exception ex) {
 			ex.printStackTrace();
