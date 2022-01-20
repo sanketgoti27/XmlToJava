@@ -45,9 +45,6 @@ public class FinalClass {
 				}
 			}
 
-
-			System.out.println(" hello sanket !");
-
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
